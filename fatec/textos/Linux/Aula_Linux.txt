@@ -1,0 +1,18 @@
+senha SUDO = admin
+
+28/03/2023
+    1. sudo adduser <usuário>
+        1.1 sudo = comando de uso como se fosse adm
+        1.2 adduser = comando de adição de usuário
+    2. sudo passwd <usuário>
+        2.1 sudo = comando de uso como se fosse adm
+        2.2 passwd = comando troca de senha 
+    3. whoami
+        3.1 whoami = comando saber qual o usuário
+    4. histoty
+        4.1 histoty = lista buffer de comando recentes
+    5. sudo rm -rf <nome>
+        5.1 sudo = acima
+        5.2 rm = remove arquivo
+        5.3 -rf = remove forçadamente arquivos/pastas
+        5.4 <nome> = qualquer nome de arquivo/pasta 

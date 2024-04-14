@@ -1,0 +1,103 @@
+Exercicio Lista 1
+
+1. Passos:
+    .assumindo que estamos no caminho /home
+    .mkdir aula01
+    .mkdir aula01/comandos basicos
+    .mkdir aula02
+    .mkdir aula02/manutencaoUsuarios
+
+2. Passos:
+    .assumindo que estamos no caminho /home
+    .cd aula01
+    .touch aula_28-03.txt
+
+3. Passos:
+    .assumindo que estamos no caminho /home
+    .nano /aula01/aula_28-03.txt
+        .digitar frase "Minha primeira aula de comandos Linux”
+        .crlt+O > Enter
+        .crlt+X
+
+4. Passos:
+    .assumindo que estamos no caminho /home
+    .mv /home/aula01/aula_28-03.txt /home/aula02
+----------------------------------------------------------------------------------
+Exercicio Lista 2
+
+1. Linha de comando: CD /home/aluno
+    .assumindo que atualmente está fora deste caminho com execução de PWD
+
+2. Linha de comando: 
+    .mkdir aula-6
+        .assumindo que está no caminho /home/aluno
+    .mkdir home/aluno/aula-6
+        .se estiver em outro caminho
+
+3. Linha de comando: 
+    . mkdir aula6-1 
+        .assumindo que está no caminho /home/aula-6
+    . mkdir aula-6/aula6-1
+        .se estiver em outro caminho
+
+4. Linha de comando: 
+    .touch testeaula-6.txt
+        .assumindo que esteja no caminho /home/aluno/aula-6/aula6-1
+    .touch /home/aluno/aula-6/aula6-1/testeaula6.txt
+        .se estiver em outro caminho
+
+5. Passos:
+    .assumindo que está no /home/aluno
+    .mkdir aula-6/aula6-1/testeaula6-1.txt
+    .nano aula-6/aula6-1/testeaula6-1.txt
+        .copiar o texto e colar 
+    .CRTL + O > Enter
+        .para salvar no NANO
+    .CRTL + X 
+        .para sair do NANO
+    .cat aula-6/aula6-1/testeaula6-1.txt 
+        .para verificar o arquivo
+
+6. Linha de comando:
+    .rmdir aula6-1
+        .assumindo que está no caminho /home/aluno/aula-6/ e pasta esteja vazia
+    .rm -fr aulas6-1
+        .assumindo que está no caminho /home/aluno/aula-6/ e pasta não esteja vazia
+    .adicionar caminho completo caso esteja fora do caminho /home/aluno/aula-6/
+
+7. Linha de comando:
+    .rm testeaula6-1.txt
+        .assumindo que esteja na pasta de local do arquivo
+    .adicionar caminho completo caso fora da pasta local do arquivo
+
+8. Linha de comando
+    .wc -l testeaula6-1.txt
+        .assumindo que esteja na pasta local do arquivo
+    .adicionar caminho completo caso fora da pasta local do arquivo
+
+9. Linha de comando:
+    .wc testeaula6-1.txt
+        .Linhas: 4
+        .Palavras: 96
+        .Bytes: 628
+    .assumindo que esteja na pasta local do arquivo
+    .adicionar caminho completo caso fora da pasta local do arquivo
+
+10. Linha de comando
+    .date +"%d-%m-%Y"
+        .saída: 04-04-2024
+
+11. Linha de comando
+    .head -2 testeaula6-1.txt
+    .assumindo que esteja na pasta local do arquivo
+    .adicionar caminho completo caso fora da pasta local do arquivo    
+
+12. Linha de comando
+    .tail -2 testeaula6-1.txt
+    .assumindo que esteja na pasta local do arquivo
+    .adicionar caminho completo caso fora da pasta local do arquivo  
+
+13. Linha de comando
+    .touch testeaula6-2.txt
+    .touch -t 199908041200.00 testeaula6-2.txt
+    
